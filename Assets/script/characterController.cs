@@ -6,6 +6,9 @@ public class characterController : MonoBehaviour
 {
     [SerializeField]
     private Animator animator;
+    private bool isJumping;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +29,20 @@ public class characterController : MonoBehaviour
             animator.transform.forward = moveVector;
         }
         transform.Translate(new Vector3(moveX, 0f, moveZ).normalized * Time.deltaTime * 5f);
+
+
+        if (Input.GetButtonDown("space"))
+        {
+            animator.SetTrigger("jumpTrigger");
+            jump();
+        }
+    }
+
+    void jump()
+    {
+        if (!isJumping)
+            return;
+        Debug.Log("jump");
+        
     }
 }

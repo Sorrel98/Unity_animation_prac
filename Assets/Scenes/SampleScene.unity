@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -255,7 +255,6 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &705507995
@@ -413,7 +412,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -511,11 +509,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6802053060597151498, guid: f2c292a2b3053274ebc4c7b84bb20872, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.55
+      value: 0.51215076
       objectReference: {fileID: 0}
     - target: {fileID: 6802053060597151498, guid: f2c292a2b3053274ebc4c7b84bb20872, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.96580124
+      value: 1.963
       objectReference: {fileID: 0}
     - target: {fileID: 6802053060597151498, guid: f2c292a2b3053274ebc4c7b84bb20872, type: 3}
       propertyPath: m_LocalRotation.w
